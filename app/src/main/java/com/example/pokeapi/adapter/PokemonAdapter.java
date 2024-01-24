@@ -31,7 +31,7 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull PokemonViewHolder holder, int position) {
         Pokemon pokemon = pokemonList.get(position);
-        holder.bind(Pokemon);
+        holder.bind(pokemon);
     }
 
     @Override

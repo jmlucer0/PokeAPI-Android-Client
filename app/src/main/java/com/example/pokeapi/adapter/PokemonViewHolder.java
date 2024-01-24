@@ -7,6 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.pokeapi.R;
+import com.example.pokeapi.model.Pokemon;
 
 public class PokemonViewHolder extends RecyclerView.ViewHolder {
 
