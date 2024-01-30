@@ -38,4 +38,9 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonViewHolder> {
     public int getItemCount() {
         return pokemonList.size();
     }
+
+    public void addPokemon(Pokemon pokemon) {
+        pokemonList.add(pokemon);
+        notifyDataSetChanged();
+    }
 }
